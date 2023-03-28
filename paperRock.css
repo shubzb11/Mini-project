@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 80%;
+  height: 90vh;
+
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+#container img {
+  width: 750px;
+  height: 500px;
+  position: relative;
+  left: 160px;
+  top: 90px;
+}
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+}
+#btn1 {
+  background-color: #fbd065;
+  color: white;
+  position: relative;
+  top: -6rem;
+  left: -32rem;
+}
+#btn2 {
+  background-color: #a7cd88;
+  color: white;
+  position: relative;
+  top: -7rem;
+  left: -3rem;
+}
+#btn3 {
+  background-color: #f3b0bf;
+  color: white;
+  position: relative;
+  top: 7rem;
+  left: -30rem;
+}
+h1 {
+  text-align: center;
+  position: relative;
+  left: -80px;
+  top: 10px;
+  color: mediumorchid;
+}
+#message,
+#details {
+  text-align: center;
+  position: relative;
+  top: -400px;
+}
+@media (max-width: 320px) {
+  #container img {
+    width: 750px;
+    height: 800px;
+    position: relative;
+    left: -30px;
+    top: 490px;
+  }
+  button {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  #btn1 {
+    top: 5rem;
+    left: 0rem;
+  }
+  #btn2 {
+    top: -30px;
+    left: 35rem;
+  }
+  #btn3 {
+    top: 130px;
+    left: 16rem;
+  }
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    left: 20rem;
+    top: 10px;
+  }
+  #message,
+  #details {
+    text-align: center !important;
+    left: 100px !important;
+    top: 40rem !important;
+    font-size: 60px;
+  }
+}

@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  z-index: -1;
+}
+.slide-container {
+  position: relative;
+  width: 100%;
+}
+.slide img {
+  height: 300px;
+  width: 100%;
+}
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 17%;
+
+  color: white;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: wheat;
+  padding: 8px 18px;
+  font-weight: bold;
+}
+.next {
+  right: 10px;
+}
+.prev {
+  left: 10px;
+}
+.caption {
+  font-weight: bold;
+  color: white;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: lightgray;
+  font-size: 30px;
+}
+.slide {
+  display: none;
+}

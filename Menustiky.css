@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+#header {
+  text-align: center;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 60px;
+}
+
+#menu-bar {
+  text-align: center;
+  background-color: aqua;
+}
+#menu-bar li {
+  display: inline-block;
+  padding: 15px;
+
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+#container {
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  margin: 50px;
+  text-align: center;
+  text-align: justify;
+}
+.stiky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image - slider</title>
+    <link rel="stylesheet" href="imageslider.css" />
+  </head>
+  <body>
+    <div class="slide-container">
+      <div class="slide">
+        <img
+          src="https://images.unsplash.com/photo-1679458118229-6ac5b35757d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+          alt=""
+        />
+        <div class="caption">caption text 1</div>
+      </div>
+
+      <div class="slide">
+        <img
+          src="https://images.unsplash.com/photo-1679464349885-f6603194a0bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+        />
+        <div class="caption">caption text 2</div>
+      </div>
+
+      <div class="slide">
+        <img
+          src="https://images.unsplash.com/photo-1679383900538-23accc6287c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+          alt=""
+        />
+        <div class="caption">caption text 3</div>
+      </div>
+
+      <div class="slide">
+        <img
+          src="https://images.unsplash.com/photo-1679466956264-d020204609ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+          alt=""
+        />
+        <div class="caption">caption text 4</div>
+      </div>
+
+      <div class="slide">
+        <img
+          src="https://images.unsplash.com/photo-1679465771243-0793d5231c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+          alt=""
+        />
+        <div class="caption">caption text 5</div>
+      </div>
+      <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+      <span class="arrow next" onclick="controller(+1)">&#10095;</span>
+    </div>
+
+    <script src="imageslider.js"></script>
+  </body>
+</html>

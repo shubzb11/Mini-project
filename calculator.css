@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 300px;
+  display: inline-block;
+}
+#container {
+  background-image: url(/images/pexels-photo-379732.jpeg);
+  background-size: cover;
+  backdrop-filter: "blur";
+
+  width: 600px;
+  height: 500px;
+  border: 1px solid;
+  position: absolute;
+  left: 30rem;
+  top: 50px;
+}
+h1 {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  color: #191614;
+}
+#number:hover {
+  box-shadow: 1px 1px 10px 2px red;
+}
+input {
+  position: relative;
+  top: 150px;
+  left: 150px;
+  height: 25px;
+}
+#button {
+  cursor: pointer;
+  border: 1px solid rgb(255, 183, 75);
+  width: 100px;
+  height: 29px;
+  color: olive;
+  font-size: 15px;
+}
+#year {
+  position: relative;
+  top: 13rem;
+  left: 180px;
+  color: rgb(15, 14, 12);
+  font-size: 20px;
+  line-height: 40px;
+  border: 2px solid #e99160;
+  width: 200px;
+  text-align: center;
+}
